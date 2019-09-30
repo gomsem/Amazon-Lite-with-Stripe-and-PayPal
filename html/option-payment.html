@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../images/Logo.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Amazon</title>
+</head>
+<body>
+
+    <!-- Payment Container -->
+    <section class="container-paypal">
+
+        <!-- Header -->
+        <header class="header-paypal">
+            <div class="header-paypal-left">
+                <img src="../images/logo-amazon-payment.svg" alt="">
+            </div>
+            <div class="header-paypal-right">
+                <img src="../images/card-payment.svg" class="card-payment" alt="">
+                <div class="line-payment">
+                    <img src="../images/line-payment.svg" alt="">
+                </div>
+                <a href="#" style="color: #E2A301;">INICIAR SESIÓN</a>
+                <a href="#" style="color: #FA7800;">ENVÍO Y PAGO</a>
+                <a href="#">OPCIÓN DE REGALO</a>
+                <a href="#">FINALIZAR PEDIDO</a>
+            </div>
+        </header>
+        <!-- /Header -->
+
+        <!-- Payment Section -->
+        <div class="specify-payment">
+            <div class="box-specify">
+                <div class="text-specify">
+                    <img src="../images/icon-info.svg" alt="">
+                    <p>Especifica a continuación cómo te gusta realizar el pago 
+                        y lo guardaremos como opción.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="payment-method">
+            <h3>Selecciona un método de pago</h3>
+            <hr>
+        </div>
+        <div class="payment-method-second">
+            <div class="text-payment-method-second">
+                <h5>Selecciona uno de nuestros metodos de pago</h5>
+                <p>Amazon acepta la mayoría de tarjetas de crédito o débito y plataformas de pago</p>
+            </div>
+            <div class="button-payment-method-second">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="EE38BLAD42BVG">
+                    <input type="image" class="btn-paypal" src="../images/paypal-badge.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                </form>
+                
+                <a href="../html/card-payment.html">
+                    <img src="../images/credit_card_24px.svg" alt="">
+                    <span>Pagar con tarjeta</span>
+                </a>
+            </div>
+        </div>
+        <!-- /Payment Section -->
+
+    </section>
+    <!-- /Payment Container -->
+
+    <!-- Last Section -->
+    <footer class="footer-paypal">
+        <div class="row-paypal">
+            <a href="#">Condiciones de uso</a>
+            <a href="#">Aviso de privacidad</a>
+            <a href="#">Ayuda</a>
+        </div>
+        <div class="row-paypal">
+            <p>© 1996-2019, Amazon.com, Inc. o sus filiales</p>
+        </div>
+    </footer>
+    <!-- /Last Section -->
+
+</body>
+</html>
