@@ -1,1 +1,1 @@
-# Amazon-Lite-con-Stripe-y-PayPal
+# Amazon-Lite-with-Stripe-and-PayPal-
